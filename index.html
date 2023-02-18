@@ -227,7 +227,8 @@ function myFunction() {
 		  modal.style.display = "block";
 		  modalImg.src = "images/image0.jpeg";
 		  captionText.innerHTML = this.alt;
-		   document.getElementById("scrollname").style.visibility = "hidden";
+// 		   document.getElementById("scrollname").style.visibility = "hidden";
+		document.getElementById("scrollname").style.position = "relative";
 		}
 
 		// Get the <span> element that closes the modal
@@ -236,7 +237,8 @@ function myFunction() {
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function() {
 		  modal.style.display = "none";
-			document.getElementById("scrollname").style.visibility = "visible";
+// 			document.getElementById("scrollname").style.visibility = "visible";
+		document.getElementById("scrollname").style.position = "fixed";
 		}
 	    </script>
                 
