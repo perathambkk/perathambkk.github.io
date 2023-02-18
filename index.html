@@ -11,6 +11,29 @@
 	<link rel="shortcut icon" href="http://www.umiacs.umd.edu/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
 
      <style type="text/css">
+	      /* Style the header: fixed position (always stay at the top) */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
         * { margin: 0; padding: 0; }
         body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/paper.jpg); }
         .clear { clear: both; }
@@ -36,29 +59,7 @@
  	margin: 0 0 0 15px; padding: 0;
 	}
 }
-	     /* Style the header: fixed position (always stay at the top) */
-.header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 8px;
-  background: #04AA6D;
-  width: 0%;
-}
-
+	    
      </style>
 	 <!--[refresh on load]-->
 	<script type="text/javascript">
@@ -95,7 +96,7 @@
         
 <!--             <h1 class="fn">Peratham Wiriyathammabhum</h1> -->
 		<div class="header">
-  <h1 class="fn">Peratham Wiriyathammabhum</h1>
+  <h1>Peratham Wiriyathammabhum</h1>
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
   </div>
