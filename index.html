@@ -187,9 +187,8 @@
         
             <!-- Microformats! -->
         
-<!--             <h1 class="fn">Peratham Wiriyathammabhum</h1> -->
-		<div class="header">
-  <h1 border-bottom: false;>Peratham Wiriyathammabhum</h1>
+		<div id="scrollname" class="header">
+  <h1 id ="myname" border-bottom: false;>Peratham Wiriyathammabhum</h1>
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
   </div>
@@ -228,6 +227,7 @@ function myFunction() {
 		  modal.style.display = "block";
 		  modalImg.src = "images/image1.jpeg";
 		  captionText.innerHTML = this.alt;
+		   document.getElementById("scrollname").style.visibility = "hidden";
 		}
 
 		// Get the <span> element that closes the modal
@@ -236,6 +236,7 @@ function myFunction() {
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function() {
 		  modal.style.display = "none";
+			document.getElementById("scrollname").style.visibility = "visible";
 		}
 	    </script>
                 
