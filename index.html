@@ -189,7 +189,7 @@
         
 		<div id="scrollname" class="header">
   <h1 id ="myname" border-bottom: false;>Peratham Wiriyathammabhum</h1>
-  <div class="progress-container">
+  <div class="progress-container" id ="mybarcontainer" >
     <div class="progress-bar" id="myBar"></div>
   </div>
 </div>
@@ -231,6 +231,7 @@ function myFunction() {
 		document.getElementById("scrollname").style.position = "relative";
 			document.getElementById("myname").style.position = "relative";
 			document.getElementById("myBar").style.position = "relative";
+			document.getElementById("mybarcontainer").style.position = "relative";
 		}
 
 		// Get the <span> element that closes the modal
@@ -243,6 +244,7 @@ function myFunction() {
 		document.getElementById("scrollname").style.position = "fixed";
 			document.getElementById("myname").style.position = "fixed";
 			document.getElementById("myBar").style.position = "fixed";
+			document.getElementById("mybarcontainer").style.position = "fixed";
 		}
 	    </script>
                 
