@@ -2,4 +2,4 @@
 
 ผมได้รับบาดเจ็บหลายแห่งทั้งที่แขนเลือดออก รอยฟกช้ำ เล็บเท้าฉีก เอ็นเข่าซ้ายฉีกโดยตำรวจจงใจดังในคลิป นาที 8-10 https://youtu.be/7ITV1IL7ExM
 
-/<my knee MRI DICOM files w/ doctor certificates upon request for any related law enforcement and corruption complaint case/>
+<my knee MRI DICOM files w/ doctor certificates upon request for any related law enforcement and corruption complaint case>
